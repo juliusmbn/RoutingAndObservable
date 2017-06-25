@@ -1,0 +1,21 @@
+<p>
+  employees works!
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Lorem.</th>
+      <th>Porro.</th>
+      <th>Accusamus.</th>
+      <th>Animi.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{employee.id}}</td>
+      <td>{{employee.firstName}}</td>
+      <td>{{employee.lastName}}</td>
+      <td>{{employee.address}}</td>
+    </tr>
+  </tbody>
+</table>
